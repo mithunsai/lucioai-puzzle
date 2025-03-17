@@ -38,6 +38,8 @@ Interpreting the clue, it was deduced that it referred to **DNS records**. The D
 
 From the DNS records, the **Fernet key** required to decrypt the encrypted string was obtained.
 
+The image is uploaded in the repo as well (fernet-key.png)
+
 ## Step 3: Decrypting the Fernet String
 
 Using the retrieved Fernet key, the encrypted string was successfully decrypted. The final result was:
